@@ -11,3 +11,4 @@ Put the start of your program in a main function. Create a program that takes nu
 
 ### Problem 4:
 Put the start of your program in a main function. Create a class for Books with name, rating, genre, and author. Create a class method that will function that will change the rating of the book. Create three objects of the class Book and put them in an array. Lastly, use the array to display only the names of the books.
+
