@@ -180,13 +180,14 @@ function problem4()
 
 
     }
-     let BlackCompany = new BoOkS("Black Company",9, "Dark Fantasy" , "Glenn Cook");
+    let BlackCompany = new BoOkS("Black Company",9, "Dark Fantasy" , "Glenn Cook");
     var DraculaTape= new BoOkS("The Dracula Tape",8, "Dark Fantasy" , "Fred SaberHagen");
     const Hobbit = new BoOkS("The Hobbit",6, "Fantasy" , "J.J.R. Tolkein");
 
     library.push(BlackCompany,DraculaTape,Hobbit);
 
-    let index= library.map(
+    let index = library.map
+                (
         function (book)
                 {
                     console.log(book.name);
